@@ -1,62 +1,66 @@
 {
-  "window.zoomLevel": 1,
-  "editor.tabSize": 2,          
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.saveFileBeforeRun": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.env.windows": {},
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.renderLineHighlight": "gutter",
-  "tabnine.experimentalAutoImports": true,
-  "workbench.editor.labelFormat": "short",
-  "liveSassCompile.settings.generateMap": false,
-  "extensions.ignoreRecommendations": true,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css",
-      "savePathReplacementPairs": null
-    }
-  ],
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "tailwindCSS.lint.invalidTailwindDirective": "ignore",
-  "tailwindCSS.experimental.classRegex": [],
-  "explorer.compactFolders": false,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "typescript.suggest.autoImports": true,
-  "editor.fontLigatures": true,
+	"window.zoomLevel": 1,
+	"editor.tabSize": 2,
+	"code-runner.clearPreviousOutput": true,
+	"code-runner.saveFileBeforeRun": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"terminal.integrated.env.windows": {},
+	"editor.semanticHighlighting.enabled": false,
+	"breadcrumbs.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.renderLineHighlight": "gutter",
+	"workbench.editor.labelFormat": "short",
+	"extensions.ignoreRecommendations": true,
+	"editor.rulers": [80, 120],
 
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    ".stylelintrc": "json",
-    "*.tsx": "typescriptreact",
-    ".env.*": "dotenv",
-    ".prettierrc": "json"
-  },
-  "editor.lineHeight": 26,
-  "workbench.colorTheme": "Min Dark",
-  "editor.fontSize": 14,
-  "[prisma]": {
-    "editor.formatOnSave": true
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
+	"git.autofetch": true,
+	"git.confirmSync": false,
 
-  "workbench.productIconTheme": "fluent-icons",
-  "editor.scrollbar.vertical": "hidden",
-  "workbench.iconTheme": "symbols",
-  "symbols.hidesExplorerArrows": false
+	"tailwindCSS.lint.invalidTailwindDirective": "ignore",
+	"tailwindCSS.experimental.classRegex": [],
+	"editor.formatOnSave": true,
+	// "editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.defaultFormatter": "biomejs.biome",
+	"explorer.compactFolders": false,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"typescript.suggest.autoImports": true,
+	"editor.fontLigatures": true,
+
+	"files.associations": {
+		".sequelizerc": "javascript",
+		".stylelintrc": "json",
+		"*.tsx": "typescriptreact",
+		".env.*": "dotenv",
+		".prettierrc": "json"
+	},
+	"editor.lineHeight": 26,
+	"editor.fontSize": 14,
+	"[prisma]": {
+		"editor.formatOnSave": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx"
+	},
+
+	"workbench.productIconTheme": "fluent-icons",
+	// "editor.scrollbar.vertical": "hidden",
+	"workbench.iconTheme": "symbols",
+	"symbols.hidesExplorerArrows": false,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"typescriptreact": true
+	},
+	"git.ignoreRebaseWarning": true,
+	"workbench.colorTheme": "Min Dark"
 }
